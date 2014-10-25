@@ -1,0 +1,16 @@
+pip==1.5.6
+aurqt==0.2.2
+pyrss2gen==1.1
+pudb==2014.1
+trashman==1.0.4
+pyroma==1.7
+doit==0.26.0
+virtualenv==1.11.5
+rtmapi==0.5.3
+natsort==3.5.1
+yapsy==1.10.423
+setuptools==3.6
+pkgbuilder==3.3.2
+nikola==7.1.0
+bbcode==1.0.7
+pypissh==1.4
