@@ -1,7 +1,7 @@
 # $Id: PKGBUILD 212111 2014-05-07 16:46:33Z fyan $
 # Maintainer: Chris “Kwpolska” Warrick <aur@chriswarrick.com>
-# Maintainer: Angel Velasquez <angvp@archlinux.org>
-# Maintainer: Felix Yan <felixonmars@gmail.com>
+# Contributor: Angel Velasquez <angvp@archlinux.org>
+# Contributor: Felix Yan <felixonmars@gmail.com>
 
 pkgbase=python26-setuptools
 pkgname=python26-setuptools
