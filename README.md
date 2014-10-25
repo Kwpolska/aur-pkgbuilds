@@ -3,7 +3,7 @@ Kwpolska’s AUR PKGBUILDs
 
 This repo stores [all my PKGBUILDs](https://aur.archlinux.org/packages/?SeB=m&K=Kwpolska) in the AUR.
 
-It also stores a requirements.txt file, used to automate management via requires.io.
+It also stores a requirements.txt file, used to automate management via requires.io. [![Requirements Status](https://requires.io/github/Kwpolska/aur-pkgbuilds/requirements.svg?branch=master)](https://requires.io/github/Kwpolska/aur-pkgbuilds/requirements/?branch=master)
 
 License
 =======
