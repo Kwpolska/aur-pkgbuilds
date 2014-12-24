@@ -3,7 +3,7 @@ bbcode==1.0.20
 doit==0.26.0
 natsort==3.5.1
 nikola==7.2.0
-pip==6.0.2
+pip==6.0.3
 pkgbuilder==3.3.2
 pudb==2014.1
 pypissh==1.4
@@ -12,5 +12,5 @@ pyrss2gen==1.1
 rtmapi==0.6.0
 setuptools==8.2.1
 trashman==1.0.4
-virtualenv==12.0.2
+virtualenv==12.0.4
 yapsy==1.10.423
