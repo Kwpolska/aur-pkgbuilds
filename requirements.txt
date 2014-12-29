@@ -10,7 +10,7 @@ pypissh==1.4
 pyroma==1.7
 pyrss2gen==1.1
 rtmapi==0.6.0
-setuptools==8.3
+setuptools==9.0
 trashman==1.0.4
 virtualenv==12.0.4
 yapsy==1.10.423
