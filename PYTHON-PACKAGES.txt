@@ -11,8 +11,6 @@ python2-natsort
 python-nikola
 python2-nikola
 
-python26-pip
-
 pkgbuilder
 
 python-pudb
@@ -27,12 +25,8 @@ python2-pyrss2gen
 
 trashman
 
-python26-setuptools
-
 python-rtmapi
 python2-rtmapi
-
-python26-virtualenv
 
 python-yapsy
 python2-yapsy
