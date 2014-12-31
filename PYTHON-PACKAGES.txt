@@ -1,5 +1,3 @@
-aurqt
-
 python-bbcode
 python2-bbcode
 
