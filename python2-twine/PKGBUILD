@@ -15,6 +15,8 @@ md5sums=('631e1551ac4caf89cd6ede7811d7eaa4')
 package() {
   cd "${srcdir}/${_pyname}-${pkgver}"
   python2 setup.py install --root="${pkgdir}/" --optimize=1
+  # make it possible to run twine for python 2, too
+  mv "${pkgdir}/bin/twine" "${pkgdir}/bin/twine2"
 }
 
 # vim:set ts=2 sw=2 et:
