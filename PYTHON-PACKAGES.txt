@@ -11,9 +11,6 @@ python2-nikola
 
 pkgbuilder
 
-python-pudb
-python2-pudb
-
 python2-pypissh
 
 python-pyroma

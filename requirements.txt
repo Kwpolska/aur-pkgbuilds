@@ -3,7 +3,6 @@ doit==0.26.0
 natsort==3.5.1
 nikola==7.2.0
 pkgbuilder==3.4.0
-pudb==2014.1
 pypissh==1.4
 pyroma==1.7
 pyrss2gen==1.1
