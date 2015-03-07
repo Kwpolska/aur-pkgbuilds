@@ -7,6 +7,6 @@ pypissh==1.4
 pyroma==1.7
 pyrss2gen==1.1
 rtmapi==0.6.0
-trashman==1.0.4
+trashman==1.5.0
 twine==1.4.0
 yapsy==1.10.423

@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Copyright © 2014, Chris “Kwpolska” Warrick.
+# Copyright © 2014–2015, Chris Warrick.
 # All rights reserved.
 # Licensed under the 3-clause BSD license.
 
