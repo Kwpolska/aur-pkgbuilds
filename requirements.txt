@@ -4,7 +4,7 @@ natsort==3.5.6
 nikola==7.3.1
 pkgbuilder==3.4.0
 pypissh==1.4
-pyroma==1.7
+pyroma==1.8.1
 pyrss2gen==1.1
 rtmapi==0.6.0
 trashman==1.5.0
