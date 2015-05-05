@@ -1,5 +1,5 @@
 bbcode==1.0.21
-doit==0.27.0
+doit==0.28.0
 natsort==3.5.6
 nikola==7.3.1
 pkgbuilder==3.4.0
