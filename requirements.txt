@@ -1,7 +1,7 @@
 bbcode==1.0.21
 doit==0.28.0
 natsort==3.5.6
-nikola==7.4.0
+nikola==7.4.1
 pkgbuilder==3.4.0
 pypissh==1.4
 pyroma==1.8.1
