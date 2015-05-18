@@ -5,11 +5,11 @@ pkgver=0.6.0
 pkgrel=1
 pkgdesc='API package for rememberthemilk.com'
 arch=('any')
-url='http://pypi.python.org/pypi/RtmAPI/'
+url='https://pypi.python.org/pypi/RtmAPI/'
 license=('MIT')
 depends=('python2' 'python2-httplib2')
 options=(!emptydirs)
-source=("http://pypi.python.org/packages/source/${_pyname:0:1}/${_pyname}/${_pyname}-${pkgver}.zip"
+source=("https://pypi.python.org/packages/source/${_pyname:0:1}/${_pyname}/${_pyname}-${pkgver}.zip"
         "LICENSE")
 md5sums=('f4a77ddd713532eea504b64e349c5a2d'
          '7d6fd7c8e022bae9010af272c31eb45f')

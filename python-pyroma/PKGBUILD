@@ -9,7 +9,7 @@ url='https://bitbucket.org/regebro/pyroma'
 license=('MIT')
 depends=('python' 'python-docutils' 'python-setuptools')
 options=(!emptydirs)
-source=("http://pypi.python.org/packages/source/${_pyname:0:1}/${_pyname}/${_pyname}-${pkgver}.tar.gz")
+source=("https://pypi.python.org/packages/source/${_pyname:0:1}/${_pyname}/${_pyname}-${pkgver}.tar.gz")
 md5sums=('d9d471be51bae92619a37d6edfdff89d')
 
 package() {

@@ -9,7 +9,7 @@ url='https://pypi.python.org/pypi/twine'
 license=('APACHE')
 depends=('python2' 'python2-setuptools' 'python2-requests>=2.0' 'python2-pkginfo')
 options=(!emptydirs)
-source=("http://pypi.python.org/packages/source/${_pyname:0:1}/${_pyname}/${_pyname}-${pkgver}.tar.gz")
+source=("https://pypi.python.org/packages/source/${_pyname:0:1}/${_pyname}/${_pyname}-${pkgver}.tar.gz")
 md5sums=('12948245aeb59acf32f663e1d81fed34')
 
 package() {

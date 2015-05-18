@@ -9,7 +9,7 @@ url='https://github.com/Kwpolska/trashman'
 license=('BSD')
 depends=('python')
 options=(!emptydirs)
-source=("http://pypi.python.org/packages/source/$(echo ${_pyname} | cut -c1)/${_pyname}/${_pyname}-${pkgver}.tar.gz")
+source=("https://pypi.python.org/packages/source/$(echo ${_pyname} | cut -c1)/${_pyname}/${_pyname}-${pkgver}.tar.gz")
 md5sums=('761837310ac289fa9d596047b85466aa')
 
 package() {
