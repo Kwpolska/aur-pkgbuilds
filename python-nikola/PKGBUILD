@@ -1,5 +1,5 @@
-# Maintainer: shmilee <echo c2htaWxlZS56anVAZ21haWwuY29tCg==|base64 -d>
 # Maintainer: Chris Warrick <aur@chriswarrick.com>
+# Contributor: shmilee <echo c2htaWxlZS56anVAZ21haWwuY29tCg==|base64 -d>
 pkgbase=python-nikola
 _pyname=nikola
 pkgname=('python-nikola' 'python2-nikola' 'python-nikola-doc')
@@ -10,7 +10,7 @@ arch=('any')
 url='http://getnikola.com/'
 license=('custom')
 options=(!emptydirs)
-makedepends=('python' 'python-setuptools' 'python2' 'python2-setuptools' 'python-sphinx')
+makedepends=('python' 'python-setuptools' 'python2' 'python2-setuptools')
 source=("http://pypi.python.org/packages/source/N/Nikola/${_pyname}-${pkgver}.tgz")
 md5sums=('262700559382e1e1c4cf9eb2a952b201')
 
@@ -41,8 +41,8 @@ package_python-nikola() {
   conflicts=('python-nikola-git')
   cd "${srcdir}/${_pyname}-${pkgver}"
   python3 setup.py install --prefix=/usr --root="${pkgdir}" --optimize=1
-  ln -s ${_pyname} "$pkgdir/usr/bin/${_pyname}3"
-  rm -rf "$pkgdir/usr/share"
+  ln -s ${_pyname} "${pkgdir}/usr/bin/${_pyname}3"
+  rm -rf "${pkgdir}/usr/share"
 }
 
 package_python2-nikola() {
@@ -67,8 +67,8 @@ package_python2-nikola() {
   conflicts=('python2-nikola-git')
   cd "${srcdir}/${_pyname}2-${pkgver}"
   python2 setup.py install --prefix=/usr --root="${pkgdir}" --optimize=1
-  mv "$pkgdir/usr/bin/${_pyname}" "$pkgdir/usr/bin/${_pyname}2"
-  rm -rf "$pkgdir/usr/share"
+  mv "${pkgdir}/usr/bin/${_pyname}" "${pkgdir}/usr/bin/${_pyname}2"
+  rm -rf "${pkgdir}/usr/share"
 }
 
 package_python-nikola-doc(){
@@ -76,12 +76,13 @@ package_python-nikola-doc(){
   conflicts=('python-nikola-doc-git')
 
   cd "${srcdir}/${_pyname}-${pkgver}"
-  install -D -m644 LICENSE.txt "${pkgdir}/usr/share/licenses/${pkgbase}/LICENSE"
-  cd "docs/sphinx"
-  make SPHINXBUILD=sphinx-build html man
-  mkdir -p "$pkgdir/usr/share"/{man,doc/$pkgbase}
-  cp -r _build/html "$pkgdir/usr/share/doc/$pkgbase/"
-  mv _build/man "$pkgdir/usr/share/man/man1"
+  install -d -m755 "${pkgdir}/usr/share"/{doc/${pkgbase},man/man1,licenses/${pkgbase}}
+  install -m644 LICENSE.txt "${pkgdir}/usr/share/licenses/${pkgbase}/LICENSE"
+  cd "docs/"
+  install -m644 man/nikola.1.gz "${pkgdir}/usr/share/man/man1/nikola.1.gz"
+  install -m644 manual.txt "${pkgdir}/usr/share/doc/${pkgbase}/manual.txt"
+  install -m644 theming.txt "${pkgdir}/usr/share/doc/${pkgbase}/theming.txt"
+  install -m644 extending.txt "${pkgdir}/usr/share/doc/${pkgbase}/extending.txt"
 }
 
 # vim:set ts=2 sw=2 et:
