@@ -21,6 +21,8 @@ python2-pyrss2gen
 python-twine
 python2-twine
 
+think
+
 trashman
 
 python-rtmapi
