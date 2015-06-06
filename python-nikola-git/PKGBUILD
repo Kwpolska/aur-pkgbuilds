@@ -6,13 +6,13 @@ _gitname=nikola
 pkgname=('python-nikola-git' 'python2-nikola-git' 'python-nikola-doc-git')
 pkgver=7.4.1.r45.g34f02ad
 pkgrel=1
-pkgdesc='A modular, fast, simple, static website generator.  (git version)'
+pkgdesc='A modular, fast, simple, static website generator. (git version)'
 arch=('any')
-url='http://getnikola.com/'
+url='https://getnikola.com/'
 license=('custom')
 options=(!emptydirs)
 makedepends=('git' 'python' 'python-setuptools' 'python2' 'python2-setuptools')
-source=("git://github.com/getnikola/${_gitname}.git")
+source=("git+https://github.com/getnikola/${_gitname}.git")
 md5sums=('SKIP')
 
 pkgver() {
@@ -78,7 +78,7 @@ package_python2-nikola-git() {
 }
 
 package_python-nikola-doc-git(){
-  pkgdesc="nikola documentation license and man page"
+  pkgdesc="Nikola documentation, license and man page"
   conflicts=('python-nikola-doc')
 
   cd "${srcdir}/${_gitname}"

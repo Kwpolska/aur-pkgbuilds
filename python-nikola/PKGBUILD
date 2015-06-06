@@ -7,11 +7,12 @@ pkgver=7.4.1
 pkgrel=2
 pkgdesc='A modular, fast, simple, static website generator.'
 arch=('any')
-url='http://getnikola.com/'
+url='https://getnikola.com/'
 license=('custom')
 options=(!emptydirs)
 makedepends=('python' 'python-setuptools' 'python2' 'python2-setuptools')
-source=("http://pypi.python.org/packages/source/N/Nikola/${_pyname}-${pkgver}.tgz")
+# .tar.gz -> .tgz to work around botched release
+source=("https://pypi.python.org/packages/source/N/Nikola/${_pyname}-${pkgver}.tgz")
 md5sums=('262700559382e1e1c4cf9eb2a952b201')
 
 build() {
@@ -72,7 +73,7 @@ package_python2-nikola() {
 }
 
 package_python-nikola-doc(){
-  pkgdesc="nikola documentation license and man page"
+  pkgdesc="Nikola documentation, license and man page"
   conflicts=('python-nikola-doc-git')
 
   cd "${srcdir}/${_pyname}-${pkgver}"
