@@ -7,7 +7,6 @@ python2-doit
 python2-natsort
 
 python-nikola
-python2-nikola
 
 pkgbuilder
 
