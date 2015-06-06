@@ -25,8 +25,5 @@ think
 
 trashman
 
-python-rtmapi
-python2-rtmapi
-
 python-yapsy
 python2-yapsy
