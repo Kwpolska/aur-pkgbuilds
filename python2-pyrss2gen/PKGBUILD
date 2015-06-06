@@ -1,4 +1,4 @@
-# Maintainer: Kwpolska <kwpolska@kwpolska.tk>
+# Maintainer: Chris Warrick <aur@chriswarrick.com>
 pkgname=python2-pyrss2gen
 _pyname=PyRSS2Gen
 pkgver=1.1

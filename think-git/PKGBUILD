@@ -1,19 +1,19 @@
 # Maintainer: Chris Warrick <aur@chriswarrick.com>
-pkgname=trashman-git
-_pyname=trashman
-_gitname=trashman
-pkgver=1.5.0.r1.g0bc27dc
+pkgname=python-think-git
+_pyname=think
+_gitname=think
+pkgver=0.1.1.r0.gd2436ef
 pkgrel=1
-pkgdesc='A Python trash manager. (git version)'
+pkgdesc='Terminal Think Music (git version)'
 arch=('any')
-url='https://github.com/Kwpolska/trashman'
+url='https://github.com/Kwpolska/think'
 license=('BSD')
 depends=('python' 'python-setuptools')
 makedepends=('git')
 options=(!emptydirs)
-provides=('trashman')
-conflicts=('trashman')
-source=("git+https://github.com/Kwpolska/${_gitname}")
+provides=('python-think')
+conflicts=('python-think')
+source=("git://github.com/Kwpolska/${_gitname}.git")
 md5sums=('SKIP')
 
 package() {

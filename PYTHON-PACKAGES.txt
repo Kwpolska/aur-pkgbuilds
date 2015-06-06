@@ -1,8 +1,6 @@
 python-bbcode
-python2-bbcode
 
 python-doit
-python2-doit
 
 python2-natsort
 
@@ -10,19 +8,14 @@ python-nikola
 
 pkgbuilder
 
-python2-pypissh
-
 python-pyroma
-python2-pyroma
 
 python2-pyrss2gen
 
 python-twine
-python2-twine
 
 think
 
 trashman
 
 python-yapsy
-python2-yapsy

@@ -1,10 +1,10 @@
-# Maintainer: Kwpolska <kwpolska@kwpolska.co.cc>
+# Maintainer: Chris Warrick <aur@chriswarrick.com>
 # Submitter/Contributor: KosmosElohim <bdsjunior@live.com>
 
 pkgname=faenza-cupertino-icon-theme
 epoch=1
 pkgver=9
-pkgrel=2
+pkgrel=3
 pkgdesc="Icon theme designed for Equinox GTK theme, recolored"
 url="http://gnome-look.org/content/show.php/Faenza-Cupertino?content=129008"
 license=('GPL3')
