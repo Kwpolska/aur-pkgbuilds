@@ -1,14 +1,15 @@
-Kwpolska’s AUR PKGBUILDs
-========================
+Chris Warrick’s AUR PKGBUILDs
+=============================
 
 This repo stores [all my PKGBUILDs](https://aur.archlinux.org/packages/?SeB=m&K=Kwpolska) in the AUR.
 
-It also stores a requirements.txt file, used to automate management via requires.io. [![Requirements Status](https://requires.io/github/Kwpolska/aur-pkgbuilds/requirements.svg?branch=master)](https://requires.io/github/Kwpolska/aur-pkgbuilds/requirements/?branch=master)
+It also stores ``aur.zsh``, an automation script, and a requirements.txt file, used to automate management via requires.io. [![Requirements Status](https://requires.io/github/Kwpolska/aur-pkgbuilds/requirements.svg?branch=master)](https://requires.io/github/Kwpolska/aur-pkgbuilds/requirements/?branch=master)
+
 
 License
 =======
 
-Copyright © 2011–2014, Chris “Kwpolska” Warrick.
+Copyright © 2011–2015, Chris Warrick.
 All rights reserved.
 
 Redistribution and modification is permitted, provided that the name
