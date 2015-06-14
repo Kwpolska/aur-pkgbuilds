@@ -3,7 +3,7 @@ doit==0.28.0
 natsort==4.0.1
 nikola==7.5.1
 pkgbuilder==3.5.0
-pyroma==1.8.1
+pyroma==1.8.2
 pyrss2gen==1.1
 think==0.1.2
 trashman==1.5.0
