@@ -1,6 +1,6 @@
 bbcode==1.0.21
 doit==0.28.0
-natsort==4.0.2
+natsort==4.0.3
 nikola==7.5.1
 pkgbuilder==3.5.1
 pyroma==1.8.2
