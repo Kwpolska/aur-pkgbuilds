@@ -8,4 +8,5 @@ pyrss2gen==1.1
 think==0.1.2
 trashman==1.5.0
 twine==1.5.0
+upass==0.1.0
 yapsy==1.11.223
