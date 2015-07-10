@@ -4,9 +4,15 @@ python-doit
 
 python2-natsort
 
+python-micawber
+
 python-nikola
 
+python-phpserialize
+
 pkgbuilder
+
+python-pygal
 
 python-pyroma
 
@@ -17,6 +23,8 @@ python-twine
 think
 
 trashman
+
+python-typogrify
 
 upass
 

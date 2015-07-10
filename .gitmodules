@@ -76,3 +76,9 @@
 [submodule "trashman"]
 	path = trashman
 	url = ssh://aur@aur4.archlinux.org/trashman.git
+[submodule "python-micawber"]
+	path = python-micawber
+	url = ssh+git://aur4.archlinux.org/python-micawber.git/
+[submodule "python-natsort"]
+	path = python-natsort
+	url = ssh+git://aur4.archlinux.org/python-natsort.git/

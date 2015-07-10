@@ -1,12 +1,15 @@
 bbcode==1.0.21
 doit==0.28.0
-natsort==4.0.3
+micawber==0.3.2
 nikola==7.6.0
+phpserialize==1.3
 pkgbuilder==4.0.0
+pygal==1.7.0
 pyroma==1.8.2
 pyrss2gen==1.1
 think==0.1.2
 trashman==1.5.0
 twine==1.5.0
+typogrify==2.0.7
 upass==0.1.1
 yapsy==1.11.223
