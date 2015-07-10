@@ -11,5 +11,5 @@ think==0.1.2
 trashman==1.5.0
 twine==1.5.0
 typogrify==2.0.7
-upass==0.1.1
+upass==0.1.2
 yapsy==1.11.223
