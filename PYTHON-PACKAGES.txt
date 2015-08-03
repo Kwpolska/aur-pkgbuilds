@@ -11,6 +11,7 @@ python-pyrss2gen
 python-twine
 python-typogrify
 python-yapsy
+cheqlist
 pkgbuilder
 think
 trashman
