@@ -1,7 +1,7 @@
 mkaur() {
     pkg=$1
-    ssh aur4.archlinux.org setup-repo $1
-    git submodule add ssh+git://aur4.archlinux.org/$1.git/
+    ssh aur.archlinux.org setup-repo $1
+    git submodule add ssh+git://aur.archlinux.org/$1.git/
     cd $1
 }
 

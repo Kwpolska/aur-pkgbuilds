@@ -3,82 +3,82 @@
 	url = git@github.com:Kwpolska/pkgbuild-templates
 [submodule "faenza-cupertino-icon-theme"]
 	path = faenza-cupertino-icon-theme
-	url = ssh://aur@aur4.archlinux.org/faenza-cupertino-icon-theme.git
+	url = ssh://aur@aur.archlinux.org/faenza-cupertino-icon-theme.git
 [submodule "mkvimball"]
 	path = mkvimball
-	url = ssh://aur@aur4.archlinux.org/mkvimball.git
+	url = ssh://aur@aur.archlinux.org/mkvimball.git
 [submodule "nap-git"]
 	path = nap-git
-	url = ssh://aur@aur4.archlinux.org/nap-git.git
+	url = ssh://aur@aur.archlinux.org/nap-git.git
 [submodule "nap"]
 	path = nap
-	url = ssh://aur@aur4.archlinux.org/nap.git
+	url = ssh://aur@aur.archlinux.org/nap.git
 [submodule "ob-autostart"]
 	path = ob-autostart
-	url = ssh://aur@aur4.archlinux.org/ob-autostart.git
+	url = ssh://aur@aur.archlinux.org/ob-autostart.git
 [submodule "pavumeter"]
 	path = pavumeter
-	url = ssh://aur@aur4.archlinux.org/pavumeter.git
+	url = ssh://aur@aur.archlinux.org/pavumeter.git
 [submodule "pkgbuilder-git"]
 	path = pkgbuilder-git
-	url = ssh://aur@aur4.archlinux.org/pkgbuilder-git.git
+	url = ssh://aur@aur.archlinux.org/pkgbuilder-git.git
 [submodule "pkgbuilder"]
 	path = pkgbuilder
-	url = ssh://aur@aur4.archlinux.org/pkgbuilder.git
+	url = ssh://aur@aur.archlinux.org/pkgbuilder.git
 [submodule "python-bbcode-git"]
 	path = python-bbcode-git
-	url = ssh://aur@aur4.archlinux.org/python-bbcode-git.git
+	url = ssh://aur@aur.archlinux.org/python-bbcode-git.git
 [submodule "python-bbcode"]
 	path = python-bbcode
-	url = ssh://aur@aur4.archlinux.org/python-bbcode.git
+	url = ssh://aur@aur.archlinux.org/python-bbcode.git
 [submodule "python-doit-git"]
 	path = python-doit-git
-	url = ssh://aur@aur4.archlinux.org/python-doit-git.git
+	url = ssh://aur@aur.archlinux.org/python-doit-git.git
 [submodule "python-doit"]
 	path = python-doit
-	url = ssh://aur@aur4.archlinux.org/python-doit.git
+	url = ssh://aur@aur.archlinux.org/python-doit.git
 [submodule "python-nikola-git"]
 	path = python-nikola-git
-	url = ssh://aur@aur4.archlinux.org/python-nikola-git.git
+	url = ssh://aur@aur.archlinux.org/python-nikola-git.git
 [submodule "python-nikola"]
 	path = python-nikola
-	url = ssh://aur@aur4.archlinux.org/python-nikola.git
+	url = ssh://aur@aur.archlinux.org/python-nikola.git
 [submodule "python-pyroma-hg"]
 	path = python-pyroma-hg
-	url = ssh://aur@aur4.archlinux.org/python-pyroma-hg.git
+	url = ssh://aur@aur.archlinux.org/python-pyroma-hg.git
 [submodule "python-pyroma"]
 	path = python-pyroma
-	url = ssh://aur@aur4.archlinux.org/python-pyroma.git
+	url = ssh://aur@aur.archlinux.org/python-pyroma.git
 [submodule "python-twine"]
 	path = python-twine
-	url = ssh://aur@aur4.archlinux.org/python-twine.git
+	url = ssh://aur@aur.archlinux.org/python-twine.git
 [submodule "python-yapsy-hg"]
 	path = python-yapsy-hg
-	url = ssh://aur@aur4.archlinux.org/python-yapsy-hg.git
+	url = ssh://aur@aur.archlinux.org/python-yapsy-hg.git
 [submodule "python-yapsy"]
 	path = python-yapsy
-	url = ssh://aur@aur4.archlinux.org/python-yapsy.git
+	url = ssh://aur@aur.archlinux.org/python-yapsy.git
 [submodule "python2-natsort"]
 	path = python2-natsort
-	url = ssh://aur@aur4.archlinux.org/python2-natsort.git
+	url = ssh://aur@aur.archlinux.org/python2-natsort.git
 [submodule "python2-pyrss2gen"]
 	path = python2-pyrss2gen
-	url = ssh://aur@aur4.archlinux.org/python2-pyrss2gen.git
+	url = ssh://aur@aur.archlinux.org/python2-pyrss2gen.git
 [submodule "think-git"]
 	path = think-git
-	url = ssh://aur@aur4.archlinux.org/think-git.git
+	url = ssh://aur@aur.archlinux.org/think-git.git
 [submodule "think"]
 	path = think
-	url = ssh://aur@aur4.archlinux.org/think.git
+	url = ssh://aur@aur.archlinux.org/think.git
 [submodule "trashman-git"]
 	path = trashman-git
-	url = ssh://aur@aur4.archlinux.org/trashman-git.git
+	url = ssh://aur@aur.archlinux.org/trashman-git.git
 [submodule "trashman"]
 	path = trashman
-	url = ssh://aur@aur4.archlinux.org/trashman.git
+	url = ssh://aur@aur.archlinux.org/trashman.git
 [submodule "python-micawber"]
 	path = python-micawber
-	url = ssh+git://aur4.archlinux.org/python-micawber.git/
+	url = ssh+git://aur.archlinux.org/python-micawber.git/
 [submodule "python-natsort"]
 	path = python-natsort
-	url = ssh+git://aur4.archlinux.org/python-natsort.git/
+	url = ssh+git://aur.archlinux.org/python-natsort.git/

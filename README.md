@@ -1,7 +1,7 @@
 Chris Warrick’s AUR PKGBUILDs
 =============================
 
-This repo stores [all my PKGBUILDs](https://aur4.archlinux.org/packages/?SeB=m&K=Kwpolska) in the AUR.  It’s useless on GitHub.com (the web app) though.  **To access packages:** `git clone --recursive`; or (in an existing clone) `git submodule update --init --recursive`.
+This repo stores [all my PKGBUILDs](https://aur.archlinux.org/packages/?SeB=m&K=Kwpolska) in the AUR.  It’s useless on GitHub.com (the web app) though.  **To access packages:** `git clone --recursive`; or (in an existing clone) `git submodule update --init --recursive`.
 
 It also stores `aur.zsh`, an automation script, and a requirements.txt file, used to automate management via requires.io. [![Requirements Status](https://requires.io/github/Kwpolska/aur-pkgbuilds/requirements.svg?branch=master)](https://requires.io/github/Kwpolska/aur-pkgbuilds/requirements/?branch=master)
 
