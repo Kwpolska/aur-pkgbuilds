@@ -1,4 +1,5 @@
 python-bbcode
+python-cloudpickle
 python-doit
 python-kwpbar
 python-micawber
