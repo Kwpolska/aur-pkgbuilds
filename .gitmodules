@@ -49,9 +49,6 @@
 [submodule "python-pyroma"]
 	path = python-pyroma
 	url = ssh://aur@aur.archlinux.org/python-pyroma.git
-[submodule "python-twine"]
-	path = python-twine
-	url = ssh://aur@aur.archlinux.org/python-twine.git
 [submodule "python-yapsy-hg"]
 	path = python-yapsy-hg
 	url = ssh://aur@aur.archlinux.org/python-yapsy-hg.git

@@ -9,7 +9,6 @@ python-phpserialize
 python-pygal
 python-pyroma
 python-pyrss2gen
-python-twine
 python-typogrify
 python-yapsy
 cheqlist
