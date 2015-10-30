@@ -7,7 +7,6 @@ python-micawber
 python-natsort
 python-nikola
 python-phpserialize
-python-pygal
 python-pyroma
 python-pyrss2gen
 python-typogrify
