@@ -11,7 +11,7 @@ cpaur() {
 }
 
 commitaur() {
-    mksrcinfo
+    makepkg --printsrcinfo > .SRCINFO
     git add .
     git commit -asm $1
     git push -u origin master
