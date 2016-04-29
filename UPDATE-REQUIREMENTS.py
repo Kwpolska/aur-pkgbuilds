@@ -10,8 +10,16 @@ import pkgbuilder.utils
 with open('PYTHON-PACKAGES.txt') as fh:
     aurpkgs = [i.strip() for i in fh.readlines() if i.strip()]
 
-pkgs = {i.name: i.version for i in pkgbuilder.utils.msearch('Kwpolska') if i.name in aurpkgs}
+search = pkgbuilder.utils.msearch('Kwpolska')
+search_names = [i.name for i in search]
+
+pkgs = {i.name: i.version for i in search if i.name in aurpkgs}
 newpkgs = {}
+
+unknown = [i for i in aurpkgs if i not in search_names and i != 'python-natsort']
+
+for i in unknown:
+    print('==> WARNING: package {0} not found'.format(i))
 
 for _n, _v in pkgs.items():
     n = _n.split('-')[-1]

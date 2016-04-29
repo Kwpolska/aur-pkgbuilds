@@ -9,7 +9,6 @@ python-nikola
 python-phpserialize
 python-pyroma
 python-pyrss2gen
-python-typogrify
 python-yapsy
 cheqlist
 datecalc
