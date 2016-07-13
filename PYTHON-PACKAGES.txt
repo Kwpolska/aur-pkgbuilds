@@ -1,6 +1,7 @@
 python-bbcode
 python-cloudpickle
 python-doit
+python-datecond
 python-husl
 python-kwpbar
 python-micawber
