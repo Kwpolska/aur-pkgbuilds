@@ -11,12 +11,13 @@ with open('PYTHON-PACKAGES.txt') as fh:
     aurpkgs = [i.strip() for i in fh.readlines() if i.strip()]
 
 search = pkgbuilder.utils.msearch('Kwpolska')
+search += pkgbuilder.utils.info('python-natsort')  # special casing
 search_names = [i.name for i in search]
 
 pkgs = {i.name: i.version for i in search if i.name in aurpkgs}
 newpkgs = {}
 
-unknown = [i for i in aurpkgs if i not in search_names and i != 'python-natsort']
+unknown = [i for i in aurpkgs if i not in search_names]
 
 for i in unknown:
     print('==> WARNING: package {0} not found'.format(i))
