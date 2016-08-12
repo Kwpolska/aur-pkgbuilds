@@ -79,3 +79,36 @@
 [submodule "python-natsort"]
 	path = python-natsort
 	url = ssh+git://aur.archlinux.org/python-natsort.git/
+[submodule "cheqlist"]
+	path = cheqlist
+	url = ssh+git://aur.archlinux.org/cheqlist.git/
+[submodule "datecalc"]
+	path = datecalc
+	url = ssh+git://aur.archlinux.org/datecalc.git/
+[submodule "font-tester"]
+	path = font-tester
+	url = ssh+git://aur.archlinux.org/font-tester.git/
+[submodule "python-cloudpickle"]
+	path = python-cloudpickle
+	url = ssh+git://aur.archlinux.org/python-cloudpickle.git/
+[submodule "python-datecond"]
+	path = python-datecond
+	url = ssh+git://aur.archlinux.org/python-datecond.git/
+[submodule "python-husl"]
+	path = python-husl
+	url = ssh+git://aur.archlinux.org/python-husl.git/
+[submodule "python-kwpbar"]
+	path = python-kwpbar
+	url = ssh+git://aur.archlinux.org/python-kwpbar.git/
+[submodule "python-phpserialize"]
+	path = python-phpserialize
+	url = ssh+git://aur.archlinux.org/python-phpserialize.git/
+[submodule "python-pyrss2gen"]
+	path = python-pyrss2gen
+	url = ssh+git://aur.archlinux.org/python-pyrss2gen.git/
+[submodule "upass"]
+	path = upass
+	url = ssh+git://aur.archlinux.org/upass.git/
+[submodule "upass-git"]
+	path = upass-git
+	url = ssh+git://aur.archlinux.org/upass-git.git/
