@@ -8,7 +8,7 @@ It also stores `aur.zsh`, an automation script, and a requirements.txt file, use
 License
 =======
 
-Copyright © 2011–2016, Chris Warrick.
+Copyright © 2011–2017, Chris Warrick.
 All rights reserved.
 
 Redistribution and modification is permitted, provided that the name
