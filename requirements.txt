@@ -3,7 +3,7 @@ cheqlist==0.3.1
 cloudpickle==0.2.2
 datecalc==0.2.1
 datecond==0.1.4
-doit==0.30.2
+doit==0.30.3
 husl==4.0.3
 kwpbar==0.1.1
 micawber==0.3.3
