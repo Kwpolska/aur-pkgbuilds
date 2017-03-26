@@ -6,6 +6,7 @@
 """requriements.txt generator"""
 
 import pkgbuilder.utils
+import sys
 
 with open('PYTHON-PACKAGES.txt') as fh:
     aurpkgs = [i.strip() for i in fh.readlines() if i.strip()]
@@ -20,21 +21,20 @@ newpkgs = {}
 unknown = [i for i in aurpkgs if i not in search_names]
 
 for i in unknown:
-    print('==> WARNING: package {0} not found'.format(i))
+    sys.stderr.write('==> WARNING: package {0} not found\n'.format(i))
 
 for _n, _v in pkgs.items():
     n = _n.split('-')[-1]
     v = _v.split('-')[0].split(':')[-1]
     if newpkgs.get(n, v) != v:
-        print('==> WARNING: version conflict detected')
-        print('==>          {0} found as {1} and {2}'.format(n, newpkgs[n], v))
-        print()
+        sys.stderr.write('==> WARNING: version conflict detected\n')
+        sys.stderr.write('==>          {0} found as {1} and {2}\n\n'.format(n, newpkgs[n], v))
     newpkgs[n] = v
 
 with open('requirements.txt', 'w') as fh:
     for n, v in sorted(newpkgs.items()):
         o = '{0}=={1}\n'.format(n, v)
-        print(o, end='')
+        sys.stderr.write(o)
         fh.write(o)
 
-print('\n==> Written to requirements.txt.')
+sys.stderr.write('\n==> Written to requirements.txt.\n')
