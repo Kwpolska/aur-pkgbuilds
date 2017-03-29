@@ -6,7 +6,7 @@ datecond==0.1.6
 doit==0.30.3
 husl==4.0.3
 kwpbar==0.1.1
-micawber==0.3.3
+micawber==0.3.4
 natsort==5.0.2
 nikola==7.8.4
 phpserialize==1.3
