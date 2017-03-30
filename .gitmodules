@@ -4,9 +4,6 @@
 [submodule "faenza-cupertino-icon-theme"]
 	path = faenza-cupertino-icon-theme
 	url = ssh://aur@aur.archlinux.org/faenza-cupertino-icon-theme.git
-[submodule "mkvimball"]
-	path = mkvimball
-	url = ssh://aur@aur.archlinux.org/mkvimball.git
 [submodule "nap-git"]
 	path = nap-git
 	url = ssh://aur@aur.archlinux.org/nap-git.git
