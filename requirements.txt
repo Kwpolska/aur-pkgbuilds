@@ -1,6 +1,6 @@
 bbcode==1.0.25
 cheqlist==0.3.1
-cloudpickle==0.2.2
+cloudpickle==0.3.1
 datecalc==0.2.1
 datecond==0.1.6
 doit==0.30.3
