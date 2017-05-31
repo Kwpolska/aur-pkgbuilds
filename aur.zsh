@@ -13,7 +13,15 @@ cpaur() {
 commitaur() {
     makepkg --printsrcinfo > .SRCINFO
     git add .
-    git commit -asm $1
+    git commit -asm "$1"
     git push -u origin master
     cd ..
+}
+
+commitaurgh() {
+    commitaur "$1"
+    ./UPDATE-REQUIREMENTS.py
+    git add .
+    git commit -asm "$1"
+    git push
 }
