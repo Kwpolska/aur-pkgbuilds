@@ -6,13 +6,13 @@ python-husl
 python-kwpbar
 python-micawber
 python-natsort
-python-nikola
 python-phpserialize
 python-pyroma
 python-pyrss2gen
 python-yapsy
 cheqlist
 datecalc
+nikola
 pkgbuilder
 think
 trashman
