@@ -79,9 +79,6 @@
 [submodule "font-tester"]
 	path = font-tester
 	url = ssh+git://aur.archlinux.org/font-tester.git/
-[submodule "python-cloudpickle"]
-	path = python-cloudpickle
-	url = ssh+git://aur.archlinux.org/python-cloudpickle.git/
 [submodule "python-datecond"]
 	path = python-datecond
 	url = ssh+git://aur.archlinux.org/python-datecond.git/

@@ -1,5 +1,4 @@
 python-bbcode
-python-cloudpickle
 python-doit
 python-datecond
 python-husl
