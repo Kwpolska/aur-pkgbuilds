@@ -10,7 +10,7 @@ natsort==5.3.2
 nikola==7.8.15
 phpserialize==1.3
 pkgbuilder==4.2.17
-pyroma==2.3
+pyroma==2.3.1
 pyrss2gen==1.1
 think==0.1.2
 trashman==1.5.0
