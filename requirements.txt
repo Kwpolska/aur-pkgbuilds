@@ -9,7 +9,7 @@ micawber==0.3.5
 natsort==5.3.3
 nikola==7.8.15
 phpserialize==1.3
-pkgbuilder==4.2.17
+pkgbuilder==4.2.18
 pyroma==2.3.1
 pyrss2gen==1.1
 think==0.1.2
