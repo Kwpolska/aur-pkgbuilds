@@ -14,5 +14,5 @@ pyroma==2.4
 pyrss2gen==1.1
 think==0.1.2
 trashman==1.5.0
-upass==0.2.1
+upass==0.3.0
 yapsy==1.11.223
