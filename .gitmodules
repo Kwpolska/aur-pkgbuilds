@@ -22,36 +22,12 @@
 [submodule "pkgbuilder"]
 	path = pkgbuilder
 	url = ssh://aur@aur.archlinux.org/pkgbuilder.git
-[submodule "python-bbcode-git"]
-	path = python-bbcode-git
-	url = ssh://aur@aur.archlinux.org/python-bbcode-git.git
-[submodule "python-bbcode"]
-	path = python-bbcode
-	url = ssh://aur@aur.archlinux.org/python-bbcode.git
-[submodule "python-doit-git"]
-	path = python-doit-git
-	url = ssh://aur@aur.archlinux.org/python-doit-git.git
-[submodule "python-doit"]
-	path = python-doit
-	url = ssh://aur@aur.archlinux.org/python-doit.git
 [submodule "python-pyroma-hg"]
 	path = python-pyroma-hg
 	url = ssh://aur@aur.archlinux.org/python-pyroma-hg.git
 [submodule "python-pyroma"]
 	path = python-pyroma
 	url = ssh://aur@aur.archlinux.org/python-pyroma.git
-[submodule "python-yapsy-hg"]
-	path = python-yapsy-hg
-	url = ssh://aur@aur.archlinux.org/python-yapsy-hg.git
-[submodule "python-yapsy"]
-	path = python-yapsy
-	url = ssh://aur@aur.archlinux.org/python-yapsy.git
-[submodule "python2-natsort"]
-	path = python2-natsort
-	url = ssh://aur@aur.archlinux.org/python2-natsort.git
-[submodule "python2-pyrss2gen"]
-	path = python2-pyrss2gen
-	url = ssh://aur@aur.archlinux.org/python2-pyrss2gen.git
 [submodule "think-git"]
 	path = think-git
 	url = ssh://aur@aur.archlinux.org/think-git.git
@@ -64,12 +40,6 @@
 [submodule "trashman"]
 	path = trashman
 	url = ssh://aur@aur.archlinux.org/trashman.git
-[submodule "python-micawber"]
-	path = python-micawber
-	url = ssh+git://aur.archlinux.org/python-micawber.git/
-[submodule "python-natsort"]
-	path = python-natsort
-	url = ssh+git://aur.archlinux.org/python-natsort.git/
 [submodule "cheqlist"]
 	path = cheqlist
 	url = ssh+git://aur.archlinux.org/cheqlist.git/
@@ -82,24 +52,12 @@
 [submodule "python-datecond"]
 	path = python-datecond
 	url = ssh+git://aur.archlinux.org/python-datecond.git/
-[submodule "python-husl"]
-	path = python-husl
-	url = ssh+git://aur.archlinux.org/python-husl.git/
 [submodule "python-kwpbar"]
 	path = python-kwpbar
 	url = ssh+git://aur.archlinux.org/python-kwpbar.git/
-[submodule "python-phpserialize"]
-	path = python-phpserialize
-	url = ssh+git://aur.archlinux.org/python-phpserialize.git/
-[submodule "python-pyrss2gen"]
-	path = python-pyrss2gen
-	url = ssh+git://aur.archlinux.org/python-pyrss2gen.git/
 [submodule "upass"]
 	path = upass
 	url = ssh+git://aur.archlinux.org/upass.git/
 [submodule "upass-git"]
 	path = upass-git
 	url = ssh+git://aur.archlinux.org/upass-git.git/
-[submodule "nikola-git"]
-	path = nikola-git
-	url = ssh://aur@aur.archlinux.org/nikola-git.git

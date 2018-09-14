@@ -1,17 +1,8 @@
-python-bbcode
-python-doit
 python-datecond
-python-husl
 python-kwpbar
-python-micawber
-python-natsort
-python-phpserialize
 python-pyroma
-python-pyrss2gen
-python-yapsy
 cheqlist
 datecalc
-nikola
 pkgbuilder
 think
 trashman
