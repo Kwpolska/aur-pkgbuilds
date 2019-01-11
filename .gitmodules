@@ -61,3 +61,6 @@
 [submodule "upass-git"]
 	path = upass-git
 	url = ssh+git://aur.archlinux.org/upass-git.git/
+[submodule "nikola-git"]
+	path = nikola-git
+	url = ssh://aur@aur.archlinux.org/nikola-git.git
