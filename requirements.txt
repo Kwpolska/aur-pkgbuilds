@@ -1,6 +1,6 @@
 cheqlist==0.3.2
 datecalc==0.2.1
-datecond==0.1.6
+datecond==0.1.7
 kwpbar==0.2.1
 pkgbuilder==4.3.0
 pyroma==2.6
